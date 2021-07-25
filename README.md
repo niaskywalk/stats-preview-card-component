@@ -40,7 +40,7 @@ Users should be able to:
 
 This is a simple stat card, so instead of just doing the card, I took the time to try some simple CSS3 properties I have not had time to use.
 
-Inside, you will find CSS Variables, flexbox and blend-mode.
+Inside, you will find CSS Variables, flexbox, transitions and blend-mode.
 
 Although I got this pretty darned close using the tools mentioned, I just could not get the coloring of the image correct.
 
