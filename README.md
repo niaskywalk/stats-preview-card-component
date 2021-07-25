@@ -57,7 +57,7 @@ Variables would work fantastically with mixins and addons, but in straight CSS i
 
 ### Useful resources
 
-- [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a great resources for quickly looking up flexbox commands.
+- [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is a great resource for quickly looking up flexbox commands.
 
 ## Author
 
