@@ -34,7 +34,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/niaskywalk/stats-preview-card-component](https://github.com/niaskywalk/stats-preview-card-component)
-- Live Site URL: [http://niaskywalk.com/projects/stats-preview-card-component/](http://niaskywalk.com/projects/stats-preview-card-component/)
+- Live Site URL: [https://niaskywalk.com/projects/stats-preview-card-component/](https://niaskywalk.com/projects/stats-preview-card-component/)
+- CodePen URL: [https://codepen.io/niaskywalk/pen/WNjdjaL](https://codepen.io/niaskywalk/pen/WNjdjaL)
 
 ## My process
 
