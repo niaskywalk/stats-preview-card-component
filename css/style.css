@@ -128,17 +128,44 @@ p {
   .card {
     flex-direction: column-reverse;
     height: initial;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 85vw;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .card h1 {
+    font-size: 1.7rem;
+    line-height: 2.1rem;
   }
 
   .card .stat-block {
     position: relative;
     flex-flow: column;
     width: 100%;
+    bottom: unset;
+  }
+
+  .card .stats {
+    margin: 1.2rem auto;
+  }
+
+  .card .stats strong {
+    font-size: 1.7rem;
   }
 
   .col-right {
     background-image: var(--mobile-background-image);
     background-size: 100% auto;
     width: unset;
+    height: 233px;
+  }
+
+  .col-left {
+    width: unset;
+    height: unset;
+    padding: 1.6rem;
   }
 }
