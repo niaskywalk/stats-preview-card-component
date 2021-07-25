@@ -21,6 +21,9 @@
 
 * {
   box-sizing: border-box;
+  transition-property: font-size, margin, padding, flex-direction, height;
+  transition-duration: 130ms, 2s, 2s;
+  transition-timing-function: ease-in-out;
 }
 
 .attribution {
@@ -121,10 +124,23 @@ p {
   vertical-align: top;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1260px) {
+  .col-left {
+    padding: 2rem 2rem 2rem 2.5rem;
+  }
+  .col-right {
+    background-size: cover;
+    background-position: center center;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1060px) {
+  .card .stats {
+    margin-right: 2em;
+  }
+}
+
+@media (max-width: 830px) {
   .card {
     flex-direction: column-reverse;
     height: initial;
@@ -136,6 +152,36 @@ p {
     font-size: 0.9rem;
   }
 
+  p {
+    margin: auto;
+  }
+  .col-right {
+    background-position: top center;
+    width: unset;
+    height: 446px;
+  }
+  .col-left {
+    width: unset;
+  }
+
+  .card .stat-block {
+    position: relative;
+    width: 100%;
+    bottom: unset;
+    margin: auto;
+    padding: 2rem 1.5rem;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 550px) {
+  .col-right {
+    background-image: var(--mobile-background-image);
+    height: 233px;
+  }
+}
+
+@media (max-width: 375px) {
   .card h1 {
     font-size: 1.7rem;
     line-height: 2.1rem;
@@ -154,13 +200,6 @@ p {
 
   .card .stats strong {
     font-size: 1.7rem;
-  }
-
-  .col-right {
-    background-image: var(--mobile-background-image);
-    background-size: 100% auto;
-    width: unset;
-    height: 233px;
   }
 
   .col-left {
